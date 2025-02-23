@@ -1,0 +1,7 @@
+services:
+  retired-gamer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
